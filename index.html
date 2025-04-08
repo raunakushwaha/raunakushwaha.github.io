@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Raunak Kushwaha | Portfolio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: url('https://i.pinimg.com/originals/92/71/88/927188c9ee98a1294bce0423e36542db.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+    body::after {
+      content: '';
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      pointer-events: none;
+      background: transparent;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.7);
+      border-radius: 12px;
+    }
+    .profile {
+      text-align: center;
+      margin-top: 30px;
+    }
+    .profile img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #00ffae;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-top: 10px;
+    }
+    .bio, .products, .contact, .social, .freelance {
+      margin-top: 30px;
+    }
+    h2 {
+      color: #00ffc3;
+    }
+    .product-item {
+      margin-bottom: 15px;
+      padding: 10px;
+      background: rgba(255,255,255,0.1);
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.4);
+    }
+    .social a, .freelance a, .contact a {
+      display: block;
+      color: #00eaff;
+      text-decoration: none;
+      margin-bottom: 8px;
+    }
+  </style>
+  <script>
+    document.addEventListener('keydown', function(e) {
+      if ((e.ctrlKey || e.metaKey) && (e.key === 's' || e.key === 'p' || e.key === 'u')) {
+        e.preventDefault();
+        alert('This action is disabled.');
+      }
+    });
+    document.addEventListener('contextmenu', event => event.preventDefault());
+  </script>
+</head>
+<body>
+  <div class="container">
+    <!-- Profile Section -->
+    <div class="profile">
+      <img src="https://raw.githubusercontent.com/chatgptassets/raunak-assets/main/pp.jpg" alt="Raunak Kushwaha">
+      <h1>Raunak Kushwaha</h1>
+    </div>
+
+    <!-- Bio Section -->
+    <div class="bio">
+      <h2>About Me</h2>
+      <p>I’m a passionate student and freelancer inspired by Gita wisdom and focused on study motivation, content creation, and self-growth. I create meaningful content that uplifts and guides young minds.</p>
+    </div>
+
+    <!-- Product Section -->
+    <div class="products">
+      <h2>My Products</h2>
+      <div class="product-item">
+        <h3>Krishna Reels Content Kit</h3>
+        <p>A complete starter kit with Gita quotes, scripts, and trending music suggestions to kickstart your motivational reels journey.</p>
+      </div>
+      <div class="product-item">
+        <h3>Custom Study Motivation Scripts</h3>
+        <p>Unique and personal study motivation scripts tailored to your style and audience.</p>
+      </div>
+      <div class="product-item">
+        <h3>Formula Sheet Class 12</h3>
+        <p>Download high-quality, handwritten-style formula sheet for Physics, Chemistry, and Math — perfect for quick revision.</p>
+        <a href="https://drive.google.com/file/d/1HBB0aBXlnZCDlWj5B7ZEHjlBn4LmIuOx/view?usp=sharing" target="_blank">Download Now</a>
+      </div>
+    </div>
+
+    <!-- Freelancing Services -->
+    <div class="freelance">
+      <h2>Freelancing Services</h2>
+      <p>I offer content writing, motivational script creation, and Gita-based video scripting services for Instagram creators and students.</p>
+      <a href="https://www.fiverr.com/yourfiverrprofile" target="_blank">My Fiverr Profile</a>
+    </div>
+
+    <!-- Social Links -->
+    <div class="social">
+      <h2>Find Me Online</h2>
+      <a href="https://instagram.com/ShreeKrishnaMotivates" target="_blank">Instagram: @ShreeKrishnaMotivates</a>
+      <a href="https://www.youtube.com/@shreekrishnamotivates" target="_blank">YouTube: @shreekrishnamotivates</a>
+      <a href="https://chat.whatsapp.com/GprTsW6gCm0GZ2J9ch9G5E" target="_blank">Join WhatsApp Group</a>
+      <a href="https://t.me/+wPBruylTV6QyNmE9" target="_blank">Join Telegram Channel</a>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="contact">
+      <h2>Contact Me</h2>
+      <p>Email: rs.creation.aug@gmail.com</p>
+      <p>Phone: +91 9608631288</p>
+      <a href="https://wa.me/qr/B42N2MBPPH6SI131288" target="_blank">Chat on WhatsApp</a>
+    </div>
+  </div>
+</body>
+</html>
